@@ -1,0 +1,52 @@
+USE [CursoBaltaSQLServer]
+
+CREATE TABLE [aluno](
+    [ID] INT,
+    [NAME] NVARCHAR(80) NOT NULL,
+    [BORN_DATA] DATETIME NOT NULL DEFAULT(GETDATE()),
+    [isActive] BIT NOT NULL DEFAULT(0),
+    [EMAIL] NVARCHAR(30) NOT NULL,
+
+    CONSTRAINT [PK_aluno] PRIMARY KEY([ID]),
+    CONSTRAINT [UQ_aluno_EMAIL] UNIQUE ([EMAIL])
+);
+GO  
+
+CREATE INDEX [IX_Aluno_Email] ON [aluno](EMAIL); 
+
+
+CREATE TABLE [curso](
+    [ID] INT IDENTITY(1,1),
+    [NAME] VARCHAR(80) NOT NULL,
+    [CategoriaId] INT NOT NULL,
+
+    CONSTRAINT [PK_CURSO] PRIMARY KEY([ID]),
+    CONSTRAINT [FR_CategoryID] FOREIGN KEY([CategoriaId]) REFERENCES [Categoria]([ID])
+);
+
+CREATE TABLE [ProgressoCurso](
+    [AlunoID] INT,
+    [CursoID] VARCHAR(80) NOT NULL,
+    [Progresso] int NOT NULL,
+    [UltimaAtualizacao] DATETIME NOT NULL DEFAULT(GETDATE()),
+
+    CONSTRAINT PK_PROGRESSO_CURSO PRIMARY KEY([AlunoID],[CursoID])
+);
+
+CREATE TABLE [Categoria](
+    [ID] INT,
+    [NAME] VARCHAR(80) NOT NULL,
+    
+    CONSTRAINT [PK_Categoria] PRIMARY KEY([ID])
+);
+
+ALTER TABLE [aluno] 
+    ADD [documentCPF] VARCHAR(11) NOT NULL
+GO
+
+ALTER TABLE [aluno]
+    DROP COLUMN [EMAIL]
+GO
+
+
+DROP TABLE [curso]
