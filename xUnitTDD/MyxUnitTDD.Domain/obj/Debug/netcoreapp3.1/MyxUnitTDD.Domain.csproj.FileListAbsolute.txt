@@ -1,0 +1,10 @@
+C:\personal-projects\MyxUnitTDD.Domain\bin\Debug\netcoreapp3.1\MyxUnitTDD.Domain.deps.json
+C:\personal-projects\MyxUnitTDD.Domain\bin\Debug\netcoreapp3.1\MyxUnitTDD.Domain.dll
+C:\personal-projects\MyxUnitTDD.Domain\bin\Debug\netcoreapp3.1\MyxUnitTDD.Domain.pdb
+C:\personal-projects\MyxUnitTDD.Domain\obj\Debug\netcoreapp3.1\MyxUnitTDD.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\personal-projects\MyxUnitTDD.Domain\obj\Debug\netcoreapp3.1\MyxUnitTDD.Domain.AssemblyInfoInputs.cache
+C:\personal-projects\MyxUnitTDD.Domain\obj\Debug\netcoreapp3.1\MyxUnitTDD.Domain.AssemblyInfo.cs
+C:\personal-projects\MyxUnitTDD.Domain\obj\Debug\netcoreapp3.1\MyxUnitTDD.Domain.csproj.CoreCompileInputs.cache
+C:\personal-projects\MyxUnitTDD.Domain\obj\Debug\netcoreapp3.1\MyxUnitTDD.Domain.dll
+C:\personal-projects\MyxUnitTDD.Domain\obj\Debug\netcoreapp3.1\MyxUnitTDD.Domain.pdb
+C:\personal-projects\MyxUnitTDD.Domain\obj\Debug\netcoreapp3.1\MyxUnitTDD.Domain.csproj.AssemblyReference.cache

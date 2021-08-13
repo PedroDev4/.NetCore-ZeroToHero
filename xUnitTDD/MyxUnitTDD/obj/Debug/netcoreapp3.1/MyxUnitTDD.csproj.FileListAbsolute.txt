@@ -1,0 +1,5 @@
+C:\personal-projects\MyxUnitTDD\obj\Debug\netcoreapp3.1\MyxUnitTDD.csproj.AssemblyReference.cache
+C:\personal-projects\MyxUnitTDD\obj\Debug\netcoreapp3.1\MyxUnitTDD.GeneratedMSBuildEditorConfig.editorconfig
+C:\personal-projects\MyxUnitTDD\obj\Debug\netcoreapp3.1\MyxUnitTDD.AssemblyInfoInputs.cache
+C:\personal-projects\MyxUnitTDD\obj\Debug\netcoreapp3.1\MyxUnitTDD.AssemblyInfo.cs
+C:\personal-projects\MyxUnitTDD\obj\Debug\netcoreapp3.1\MyxUnitTDD.csproj.CoreCompileInputs.cache
