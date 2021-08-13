@@ -1,9 +1,0 @@
-C:\dotnet-launchstep\TESTE\teste.data\bin\Debug\netcoreapp3.1\teste.data.deps.json
-C:\dotnet-launchstep\TESTE\teste.data\bin\Debug\netcoreapp3.1\teste.data.dll
-C:\dotnet-launchstep\TESTE\teste.data\bin\Debug\netcoreapp3.1\teste.data.pdb
-C:\dotnet-launchstep\TESTE\teste.data\obj\Debug\netcoreapp3.1\teste.data.csproj.AssemblyReference.cache
-C:\dotnet-launchstep\TESTE\teste.data\obj\Debug\netcoreapp3.1\teste.data.AssemblyInfoInputs.cache
-C:\dotnet-launchstep\TESTE\teste.data\obj\Debug\netcoreapp3.1\teste.data.AssemblyInfo.cs
-C:\dotnet-launchstep\TESTE\teste.data\obj\Debug\netcoreapp3.1\teste.data.csproj.CoreCompileInputs.cache
-C:\dotnet-launchstep\TESTE\teste.data\obj\Debug\netcoreapp3.1\teste.data.dll
-C:\dotnet-launchstep\TESTE\teste.data\obj\Debug\netcoreapp3.1\teste.data.pdb
